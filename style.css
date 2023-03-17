@@ -1,7 +1,9 @@
 body{
     background-image: url(./wooden-fence-g4c1fd73e7_1920.jpg);
     margin: auto;
-    padding: 200px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px solid;
 }
@@ -10,25 +12,58 @@ header{
     margin: 50px;
     color:antiquewhite;
 }
-button{background-color: grey;
-    color: antiquewhite;
-    border-radius: 20px;
-    width: 200px;
-    box-shadow: 5px 5px 5px;
-}
 a{
+    font-size:15px;
+    font-family:Arial;
+    color:antiquewhite;
     text-decoration: none;
-    color: antiquewhite;
-    font-size: 20px solid;
+    font-weight:bold;
+    padding: 10px;
+    margin: 10px;
 }
+a:hover{
+    color:azure
+}
+.button{
+    display: inline-block;
+    width:140px;
+    height:30px;
+    border-width:1px;
+    border-color:gray;
+    border-radius:8px;
+    box-shadow: 0px 10px 14px -7px black;
+    text-shadow: 0px 1px 0px black;
+    background:linear-gradient(gray, #5a5851);
+}
+.button:hover {
+    background: linear-gradient(#5a5851, gray);
+  }
 article{
     background-color: grey;
-    opacity: 0.6;
+    opacity: 0.9;
     padding: 20px;
     box-shadow: 10px 10px 10px;
     border-radius: 20px;
 }
+p::first-letter{
+    font-size: 36px;
+    font-style: italic;
+}
 p{
     text-align: center;
     color:antiquewhite;
+}
+@keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+h1{
+    font-size: 56px;
+    text-shadow: 5px 5px 5px black;
+    animation: fadein 4s ease-in alternate 
+}
+footer{
+    color: azure;
+    text-align: center;
+    padding: 5px;
 }
