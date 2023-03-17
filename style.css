@@ -57,6 +57,12 @@ p::first-letter{
 p{
     text-align: center;
     color:antiquewhite;
+    opacity: 0.3;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+p:hover{
+    opacity: 1;
 }
 h1{
     font-size: 56px;
