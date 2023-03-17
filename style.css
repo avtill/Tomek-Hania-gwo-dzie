@@ -39,28 +39,29 @@ a:hover{
     background: linear-gradient(#5a5851, gray);
   }
 article{
+    font-size: 36;
     background-color: grey;
     opacity: 0.9;
-    padding: 20px;
+    padding: 70px;
     box-shadow: 10px 10px 10px;
     border-radius: 20px;
 }
 p::first-letter{
-    font-size: 36px;
+    font-size: 72px;
     font-style: italic;
-}
-p{
-    text-align: center;
-    color:antiquewhite;
 }
 @keyframes fadein {
     0%   { opacity: 0; }
     100% { opacity: 1; }
 }
+p{
+    text-align: center;
+    color:antiquewhite;
+}
 h1{
     font-size: 56px;
     text-shadow: 5px 5px 5px black;
-    animation: fadein 4s ease-in alternate 
+    animation: fadein 3s ease-in alternate 
 }
 footer{
     color: azure;
